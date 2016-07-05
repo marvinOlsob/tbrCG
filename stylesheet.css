@@ -4,7 +4,7 @@ body{
 	#menu{
 		float: right;
 		height: 100%;
-		width: 30%;
+		width: 29%;
         background-color: white;
         border: 5px solid #F38630;
         text-align: center;
@@ -12,8 +12,8 @@ body{
         font-size: 18px;
         margin-top: 50px;
 	}
- #ponto, #poligono, #linha, #selecao, #fillColor {
-    padding: 15px 32px;
+ #ponto, #poligono, #linha, #selecao, #fillColor, #trans, #rot, #fec{
+    padding: 15px 30px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -25,19 +25,3 @@ body{
     border: 2px solid #F38630;
 	}
     
- #sel{
-    background-color: #4CAF50; /* Green */
-    color: white;
-    padding: 15px 28px;
-    text-align: center;
-    text-decoration: none;
-    display: block;
-    font-size: 16px;
-    margin: 4px 4px;
-    cursor: pointer;
-    background-color: white; 
-    color: black; 
-    border: 2px solid #4CAF50;
-    float: right;
-    margin-right: 5%;
-    }
